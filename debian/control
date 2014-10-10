@@ -12,6 +12,17 @@ Architecture: all
 Depends:
  linux-udoo,
  firmware-udoo,
+ firmware-ralink,
+ baseconfig-ptux,
+ ptux-essential,
+ systemd-sysv,
+ dpkg-autoconfigure-at-boot,
+ module-init-tools,
+ connman-run,
+ iproute,
+ iputils-ping,
+ procps,
+ vim-tiny,
  ${misc:Depends}
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
