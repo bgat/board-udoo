@@ -21,6 +21,7 @@ Depends:
  connman-run,
  iproute,
  iputils-ping,
+ wpasupplicant,
  procps,
  vim-tiny,
  ${misc:Depends}
